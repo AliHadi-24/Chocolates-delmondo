@@ -1,6 +1,6 @@
 /* body {
     background-color: #222;
-    height: 100%; 
+    height: 100%;
     width: 100%;
 } */
 body {
@@ -10,17 +10,8 @@ body {
  background-repeat:no-repeat;
  background-position: center top;
  background-color: #222;
- display: compact;
  font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
- /* width: 100%;
-     height: auto;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover; 
-     background-size: 100%;
-     background-repeat: no-repeat;
-     position: fixed; top: 0px; */
+
 }
 
 logoinNav {
@@ -28,7 +19,7 @@ logoinNav {
 }
 .navbar ul {
     /* width : max-content; */
-   
+
     background: rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 30px 0px #000;
 }
@@ -37,7 +28,7 @@ logoinNav {
 }
 
 .navbar ul li a {
-    
+
     color: #dfd6cc;
     font-size: 1em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -50,12 +41,12 @@ logoinNav {
 }
 
 
-#GradientFill2 
-{ 
+#GradientFill2
+{
 	background-image: url(img/gradientback.jpg);
 	clear: both;
-	margin-top: 0px;	 
-} 
+	margin-top: 0px;
+}
 
 .mainboxshadow
 {
@@ -65,8 +56,36 @@ logoinNav {
 
 .herobox {
     height: 510px;
-    /* margin: auto;
-    clear: both; */
+    color:  #f1e8de;
+}
+.heroTextUp {
+    margin: 30px 0 0 30px;
+}
+.textShadow {
+    text-shadow: 10px 15px 15px #000;
+}
+.heroTextUp1 {
+    font-size: 5em;
+    font-weight: bold;
+}
+.heroTextUp2 {
+    font-size: 7em;
+    font-weight: bold;
+}
+.heroTextDown {
+    margin: 150px 0 0 20px;
+    padding: 10px;
+    height: 75px;
+    background: rgba(0, 0, 0, 0.3);
+
+}
+.heroTextDown1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.heroTextDown2 {
+    font-size: 2em;
+    font-weight: bold;
 }
 .aboutusbox {
     width: 1200px;
@@ -75,13 +94,13 @@ logoinNav {
     margin: auto;
     clear: both;
     background-color: rgb(40,36,38);
-	
-	
+
+
 	z-index: -1;
 }
 
-.cardsBox 
-{ 
+.cardsBox
+{
     background-color: #5d4639;
     height: max-content;
 	z-index: -1;
@@ -106,7 +125,7 @@ logoinNav {
 }
 .card3 {
     margin-top: 20px;
-    z-index: 10000px; 
+    z-index: 10000px;
 }
 
 
@@ -123,12 +142,12 @@ logoinNav {
     align-self: center;
     height: 260px;
     width: 260px
-    
+
 }
 .allCardInfo {
     background-color: #333333;
     height: 100px;
-    border-top:5px solid #f1e8de;; 
+    border-top:5px solid #f1e8de;
     border-bottom: 5px solid #f1e8de;
 }
 .allCardInfo p {
@@ -170,88 +189,69 @@ logoinNav {
     padding-top: 10px;
 }
 
-
+/*FOOTER*/
 .footer
 {
     background-color: rgb(23,23,26);
-    height: 300px;
+    height: auto;
 }
+
+.footerNav {
+  list-style: georgian;
+  font-size: 1em;
+  text-decoration: none;
+}
+.fn-a {
+  color: White;
+}
+
+.copyRightCon {
+  margin-top: 20px;
+  background-color: ;
+  height: auto;
+}
+.CopyrightText {
+  color: white;
+  margin: auto;
+}
+
+.MadeByTeamDelta {
+  float: right;
+  color: white;
+  display: inline;;
+}
+
 
 
 
 /*///////////////////////////
 Social Media Links
 ///////////////////////////*/
-.smlinks {
-    float: right;
+.smContainer {
+  height: 30px;
+  width: auto;;
 }
- .googleplus3256 
-{ 
-	 display: inline;
-    margin: 45px 0px 0px 5px;
-	 
-} 
-
- .twitter3256 
-{ 
-	 display: inline;
-	 margin: 45px 5px;
-} 
-
- .facebook3256 
-{ 
-	
-	display: inline;
-    margin: 45px 5px;
-} 
-
- .instagram256 
-{ 
-    margin: 45px 5px;
-display: inline;
-	 
-} 
-
- .sharethis3256 
-{ 
-    margin: 45px 5px;
-	 display: inline;
-	 
-} 
-
- .snapchat256 
-{ 
-    margin: 45px 5px;
-display: inline;
-	
-} 
-
- .MadeByTeamDelta 
-{ 
-	 color: white;
-    display: block;
-} 
-
-.Copyright20172018Cho 
-{ 
-    color: white;
-    margin-top: 200px;
-    margin-left: auto;
-    display: inline;
-    
+.smLinks {
+  width: auto;
+  height: auto;
+  float: Right;
+  margin-top: 5px;
+  margin-right: -27px;
 }
+.allSmImg {
+  width: 25px;
+  height: 25px;
+}
+
+
 /*///////////////////////////
 Social Media Links
 ///////////////////////////*/
 
- .MadeByTeamDelta 
-{ 
-	 color: white;
-    display: block;
-} 
 
-/* 
-@media (min-width: 100px) and (max-width: 565px) { 
+
+/*
+@media (min-width: 100px) and (max-width: 565px) {
         .container{
             background-image: url("../img/Hero.jpg");
             background-size: 1000px 700px;
@@ -265,14 +265,14 @@ Social Media Links
         margin: 15px;
         padding-top: 10px;
 		}
-		
+
 		.navbar {
 			position: fixed; top: 0px;
 			background-color: #111;
 			z-index: 100000px;
-			
+
             }
-            
+
         .logo {
             margin-top: 30px;
             display: none;
@@ -300,8 +300,8 @@ Social Media Links
            .cardsContainer{
             margin: 15px;
         }
-        
-        
+
+
 }
   */
 
@@ -317,29 +317,163 @@ Social Media Links
 /* condition for screen size minimum of 500px */
 
 
-@media (min-width: 1100px) and (max-width: 5000px) {
+@media (min-width: 1200px) and (max-width: 5000px) {
     .card1, .card3 {
         margin-top: 20px;
     }
 }
-@media (min-width: 767px) and (max-width: 1100px) {
+@media (min-width: 991px) and (max-width: 1200px) {
     .herobox {
         height: 400px;
-        background-color: green;
+    }
+    .heroTextUp {
+        margin: 30px 0 0 30px;
+    }
+    .textShadow {
+        text-shadow: 10px 15px 15px #000;
+    }
+    .heroTextUp1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .heroTextUp2 {
+        font-size: 5em;
+        font-weight: bold;
+    }
+    .heroTextDown {
+        margin: 110px 0 0 20px;
+        padding: 10px;
+        height: 75px;
+        background: rgba(0, 0, 0, 0.3);
+
+    }
+    .heroTextDown1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .heroTextDown2 {
+        font-size: 1.5em;
+        font-weight: bold;
     }
     .card1, .card3 {
         margin-top: 20px;
     }
 }
 
-@media (min-width: 565px) and (max-width: 767px) {
+@media (min-width: 767px) and (max-width: 991px) {
+    .herobox {
+        height: 400px;
+    }
+    .heroTextUp {
+        margin: 30px 0 0 30px;
+    }
+    .textShadow {
+        text-shadow: 10px 15px 15px #000;
+    }
+    .heroTextUp1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .heroTextUp2 {
+        font-size: 5em;
+        font-weight: bold;
+    }
+    .heroTextDown {
+        margin: 110px 0 0 20px;
+        padding: 10px;
+        height: 90px;
+        background: rgba(0, 0, 0, 0.3);
+
+    }
+    .heroTextDown1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .heroTextDown2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .card1, .card3 {
+        margin-top: 20px;
+    }
+    .allCardHerders {
+        font-size: 2em;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .herobox {
+        height: 400px;
+    }
+    .heroTextUp {
+        margin: 30px 0 0 30px;
+    }
+    .textShadow {
+        text-shadow: 10px 15px 15px #000;
+    }
+    .heroTextUp1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .heroTextUp2 {
+        font-size: 5em;
+        font-weight: bold;
+    }
+    .heroTextDown {
+        margin: 80px 0 0 20px;
+        padding: 10px;
+        height: 90px;
+        background: rgba(0, 0, 0, 0.3);
+
+    }
+    .heroTextDown1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .heroTextDown2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
     .allCards {
         margin: auto;
         margin-top: 20px;
     }
 }
 
-@media (min-width: 350px) and (max-width: 565px) {
+@media (min-width: 481px) and (max-width: 576px) {
+    .herobox {
+        height: 400px;
+    }
+    .heroTextUp {
+        margin: 30px 0 0 30px;
+    }
+    .textShadow {
+        text-shadow: 10px 15px 15px #000;
+    }
+    .heroTextUp1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .heroTextUp2 {
+        font-size: 5em;
+        font-weight: bold;
+    }
+    .heroTextDown {
+        margin: 80px 0 0 20px;
+        padding: 10px;
+        height: 90px;
+        background: rgba(0, 0, 0, 0.3);
+
+    }
+    .heroTextDown1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .heroTextDown2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
 
     .allCards {
         width: 200px;
@@ -352,14 +486,51 @@ Social Media Links
 }
 
 
-@media (min-width: 1px) and (max-width: 565px) { 
+@media (min-width: 1px) and (max-width: 481px) {
+  .herobox {
+      height: 400px;
+  }
+  .heroTextUp {
+      margin: 30px 0 0 30px;
+  }
+  .textShadow {
+      text-shadow: 10px 15px 15px #000;
+  }
+  .heroTextUp1 {
+      font-size: 3em;
+      font-weight: bold;
+  }
+  .heroTextUp2 {
+      font-size: 5em;
+      font-weight: bold;
+  }
+  .heroTextDown {
+      margin: 50px 0 0 20px;
+      padding: 10px;
+      height: 90px;
+      background: rgba(0, 0, 0, 0.3);
+
+  }
+  .heroTextDown1 {
+      font-size: 1.5em;
+      font-weight: bold;
+  }
+  .heroTextDown2 {
+      font-size: 1.5em;
+      font-weight: bold;
+  }
+
+ }
+
+
+@media (min-width: 1px) and (max-width: 576px) {
     .navbar {
         position: fixed; top: 0px;
         background-color: #111;
         z-index: 100000px;
-        
+
         }
-        
+
     .logo {
         margin-top: 30px;
         display: none;
@@ -399,6 +570,29 @@ Social Media Links
         margin-top: 20px;
 
     }
-    
-    
+
+
 }
+
+@media (min-width: 1px) and (max-width: 400px) { }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .MainNavigationBar{
+    width:
+}
+.nav-item {
+    width: 5px;
+    background-color: green;
+    border: 5px solid red;
+} */
