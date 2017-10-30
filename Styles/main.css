@@ -250,7 +250,7 @@ Social Media Links
     display: block;
 } 
 
-
+/* 
 @media (min-width: 100px) and (max-width: 565px) { 
         .container{
             background-image: url("../img/Hero.jpg");
@@ -291,7 +291,6 @@ Social Media Links
 
         body {
             margin-top: 50px;
-            /* margin: 0; */
             background-image: url("../img/Hero.jpg");
             background-size: 2400px 790px;
             background-position-x: -1100px;
@@ -304,7 +303,7 @@ Social Media Links
         
         
 }
-
+  */
 
 
 
@@ -324,6 +323,10 @@ Social Media Links
     }
 }
 @media (min-width: 767px) and (max-width: 1100px) {
+    .herobox {
+        height: 400px;
+        background-color: green;
+    }
     .card1, .card3 {
         margin-top: 20px;
     }
@@ -337,6 +340,7 @@ Social Media Links
 }
 
 @media (min-width: 350px) and (max-width: 565px) {
+
     .allCards {
         width: 200px;
         height: 500px;
@@ -347,7 +351,46 @@ Social Media Links
     }
 }
 
-@media (min-width: 1px) and (max-width: 565px) {
+
+@media (min-width: 1px) and (max-width: 565px) { 
+    .navbar {
+        position: fixed; top: 0px;
+        background-color: #111;
+        z-index: 100000px;
+        
+        }
+        
+    .logo {
+        margin-top: 30px;
+        display: none;
+    }
+    .logoinNav{
+        width: 150px;
+        height: 50px;
+    }
+    .logoText{
+        font-family: sans-serif;
+        color: #fff;
+        font-size: 1.1em;
+        font-size-adjust: 1px ;
+        display: inline;
+    }
+
+    body {
+        margin-top: 50px;
+        background-image: url("../img/Hero.jpg");
+        background-size: 1300px 500px;
+       }
+
+    .herobox {
+        height: 450px;
+    }
+
+
+    .cardsContainer{
+        margin: 15px;
+    }
+
     .allCards {
         width: 300px;
         height: 500px;
@@ -356,4 +399,6 @@ Social Media Links
         margin-top: 20px;
 
     }
+    
+    
 }
