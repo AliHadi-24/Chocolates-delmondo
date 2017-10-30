@@ -95,6 +95,7 @@ logoinNav {
     width: 450px;
     height: 500px;
     box-shadow: 0px 0px 30px 5px #000;
+    background-color: #333333;
 }
 
 .card1 {
@@ -107,46 +108,48 @@ logoinNav {
     margin-top: 20px;
     z-index: 10000px; 
 }
-@media (min-width: 1100px) and (max-width: 5000px) {
-    .card1, .card3 {
-        margin-top: 20px;
-    }
+
+
+/* ALL CARDS */
+.allCardHerders {
+    text-align: center;
+    color: #f1e8de;
 }
-@media (min-width: 767px) and (max-width: 1100px) {
-    .card1, .card3 {
-        margin-top: 20px;
-    }
+.allImgContainer {
+    text-align: center;
+    margin-bottom: 5px;
 }
-
-@media (min-width: 565px) and (max-width: 767px) {
-    .allCards {
-        margin: auto;
-        margin-top: 20px;
-    }
+.allCardImg {
+    align-self: center;
+    height: 260px;
+    width: 260px
+    
 }
-
-@media (min-width: 350px) and (max-width: 565px) {
-    .allCards {
-        width: 200px;
-        height: 500px;
-        box-shadow: 0px 0px 30px 5px #000;
-        margin: auto;
-        margin-top: 20px;
-
-    }
+.allCardInfo {
+    background-color: #333333;
+    height: 100px;
+    border-top:5px solid #f1e8de;; 
+    border-bottom: 5px solid #f1e8de;
 }
-
-@media (min-width: 1px) and (max-width: 565px) {
-    .allCards {
-        width: 300px;
-        height: 500px;
-        box-shadow: 0px 0px 30px 5px #000;
-        margin: auto;
-        margin-top: 20px;
-
-    }
+.allCardInfo p {
+    color: #f1e8de;
+    font-size: 1.7em;
+    margin: 10px;
+    text-align: center;
 }
 
+.allBtnContainer {
+    text-align: center;
+}
+.allCardBtn {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    margin: 12px;
+}
+/* END ALL CARDS */
+
+/* CARD 2 */
 .HeroText
 {
     display:block;
@@ -302,113 +305,6 @@ Social Media Links
         
 }
 
-/* @media (min-width: 800px) and (max-width: 1200px) { 
-
-    .allCards {
-        width: 250px;
-        height: 500px;
-    }
-    
-    .card1 {
-        background-color: green;
-        box-shadow: 0px 0px 30px 5px #000;
-        float: left;
-        margin: 30px 0 20px 0;
-    }
-    .card2 {
-        float: left;
-        background-color: red;
-        z-index: 10000px;
-        box-shadow: 0px 0px 30px 5px #000;
-    }
-    .card3 {
-        background-color: orange;
-        box-shadow: 0px 0px 30px 5px #000;
-        float: right;
-        margin: 30px 0 20px 0;
-        z-index: -10000px;
-        
-    }
-} */
-
-
-/* @media (min-width: 100px) and (max-width: 767px) { 
-	.naBvar {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-		}
-}
-
-@include media-breakpoint-only(xs) { .navbar {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-		} }
-@include media-breakpoint-only(sm) { .navbar {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-		} }
-@include media-breakpoint-only(md) { .navbar {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-		} }
-
-/*
-@media only screen and (min-width: 768px) {
-     For desktop: 
-	.navBar{
-		background-color: aqua;
-    }
-    
-
-
-
-
-.allCards {
-            width: 450px;
-            height: 550px;
-            margin: 10px 0px;
-            clear: both;
-            float: left;
-        }
-        
-        .card1 {
-            background-color: green;
-            box-shadow: 0px 0px 30px 5px #000;
-            float: left;
-        }
-        .card2 {
-            float: left;
-            background-color: red;
-            z-index: 10000px;
-            box-shadow: 0px 0px 30px 5px #000;
-        }
-        .card3 {
-            background-color: orange;
-            box-shadow: 0px 0px 30px 5px #000;   
-        }
-
-
-
-
-}*/ 
-
-
 
 
 
@@ -422,4 +318,42 @@ Social Media Links
 /* condition for screen size minimum of 500px */
 
 
- 
+@media (min-width: 1100px) and (max-width: 5000px) {
+    .card1, .card3 {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 767px) and (max-width: 1100px) {
+    .card1, .card3 {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 565px) and (max-width: 767px) {
+    .allCards {
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 565px) {
+    .allCards {
+        width: 200px;
+        height: 500px;
+        box-shadow: 0px 0px 30px 5px #000;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+}
+
+@media (min-width: 1px) and (max-width: 565px) {
+    .allCards {
+        width: 300px;
+        height: 500px;
+        box-shadow: 0px 0px 30px 5px #000;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+}
